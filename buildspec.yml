@@ -9,6 +9,6 @@ phases:
       - mvn install
       
   artifacts:
-  files:
-    - s3://thu-bucket/artifacts/demo2-0.0.1-SNAPSHOT.war
+    files:
+      - s3://thu-bucket/artifacts/demo2-0.0.1-SNAPSHOT.war
 
