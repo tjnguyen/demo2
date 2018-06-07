@@ -6,9 +6,8 @@ phases:
             - git clone https://github.com/tjnguyen/demo2.git               
   build:
     commands:
-      - mvn install
-      
-  artifacts:
+      - mvn install    
+artifacts:
     files:
       - s3://thu-bucket/artifacts/demo2-0.0.1-SNAPSHOT.war
 
